@@ -10,5 +10,5 @@ class File
 
     }
 }
-$file1= new File();
+$file1 = new File();
 $file1->showFileInfo('Testfile.txt');
