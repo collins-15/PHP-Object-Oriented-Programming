@@ -5,12 +5,12 @@ class Animal2
 
    
 }
-class Cat1 extends Animal2
+class Catt extends Animal2
 {
     public function getName()
     {
         return $this->name;
     }
 }
-$cat1= new Cat1();
+$cat1= new Catt();
 echo $cat1->getName();
