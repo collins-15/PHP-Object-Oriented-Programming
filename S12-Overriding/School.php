@@ -2,10 +2,10 @@
 
 class School
 {
-
+    // Create the properties
     public $schoolName;
     public $schoolStep;
-
+// Construct method-is never overriden
     function __construct($schoolName, $schoolStep)
     {
         $this->schoolName = $schoolName;
